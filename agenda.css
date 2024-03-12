@@ -1,0 +1,132 @@
+.flex-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  border-radius: 25px;
+  background-color: rgba(234, 234, 234, 0.9);
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.img-container img {
+  width: 250px;
+  height: 250px;
+}
+.p-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  padding: 0 5%;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-top: 0;
+  margin: 20px 0;
+  border-bottom: 0;
+}
+.time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.break-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(234, 234, 234, 0.9);
+}
+.name {
+  font-size: 40px;
+  color: #ec1015;
+  font-weight: 700;
+  margin: 10px;
+}
+.caption {
+  font-size: 25px;
+  color: black;
+  margin: 10px;
+  font-weight: 500;
+}
+.time {
+  font-size: 25px;
+  font-weight: 600;
+  margin: auto 0;
+}
+@media screen and (max-width: 1200px) {
+  .flex-item, .break-container {
+    width: 90%;
+  }
+  .img-container img {
+    width: 180px;
+    height: 180px;
+  }
+  .p-container {
+    padding: 0 1%;
+  }
+  .name {
+    font-size: 25px;
+    margin: 8px;
+  }
+  .caption {
+    font-size: 18px;
+    margin: 8px;
+  }
+  .time {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .img-container img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img-container img {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .img-container img {
+    width: 120px;
+    height: 120px;
+  }
+  .name {
+    font-size: 20px;
+    margin: 5px;
+  }
+  .caption {
+    font-size: 15px;
+    margin: 5px;
+  }
+  .time {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+    .img-container img {
+      width: 100px;
+      height: 100px;
+    }
+    .name {
+      font-size: 15px;
+    }
+    .caption {
+      font-size: 10px;
+    }
+    .time {
+      font-size: 10px;
+    }
+  }

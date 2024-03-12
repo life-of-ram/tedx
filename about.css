@@ -1,0 +1,30 @@
+main {
+  overflow-x: hidden;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: -10px;
+  background: rgb(236, 16, 21);
+  background: linear-gradient(
+    0deg,
+    rgba(236, 16, 21, 1) -10%,
+    rgba(255, 255, 255, 1) 50%
+  );
+}
+p,
+h1 {
+  padding: 1% 5%;
+}
+p {
+  text-align: justify;
+}
+.bg {
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+.boat {
+  position: absolute;
+  width: 140px;
+  right: 200px;
+  top: 1100px;
+}

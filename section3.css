@@ -1,0 +1,86 @@
+#section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 40px;
+  z-index: 1;
+}
+.tedx {
+  vertical-align: middle;
+  font-weight: 800;
+}
+.ideas {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.receiving {
+  font-family: "Rock Salt";
+  font-size: 80px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 120px;
+}
+.content {
+  font-size: 20px;
+  text-align: justify;
+  padding: 0 20px;
+}
+.btn2 {
+  margin: auto;
+  color: white;
+  border: none;
+  font-size: 20px;
+  background-color: #ec1015;
+  padding: 20px 200px;
+  cursor: pointer;
+}
+
+.whats {
+  font-size: 15px;
+  padding: 2%;
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+}
+.whats a {
+  text-decoration: none;
+}
+.whats a:hover {
+  text-decoration: underline;
+  color: #ec1015;
+}
+@media screen and (max-width: 960px) {
+  .btn2 {
+    padding: 20px 180px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .btn2 {
+    padding: 18px 140px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .whats {
+    font-size: 10px;}
+  .btn2 {
+    padding: 16px 100px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .btn2 {
+    padding: 14px 60px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .btn2 {
+    padding: 12px 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .receiving {
+    font-size: 60px;
+    line-height: 80px;
+  }
+}

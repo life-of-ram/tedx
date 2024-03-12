@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda</title>
+    <link rel="stylesheet" href="public.css" />
+    <link rel="stylesheet" href="agenda.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main style="background-color: rgba(0, 0, 0, 1)">
+      <header>
+        <nav>
+          <a href="index.html">
+            <img src="img/logo-white.png" class="logo" alt="" />
+          </a>
+          <ul class="menu">
+            <li><a href="index.html" style="color: #ec1015">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pastEvents.html">Past Events</a></li>
+            <li><a href="sponsors.html">Our Sponsors</a></li>
+            <li class="btn">
+              <a class="register" onclick="popup()"> Register </a>
+            </li>
+          </ul>
+          <div class="bar" onclick="dropdown()">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+        </nav>
+      </header>
+      <div id="dropdown" style="display: none">
+        <ul class="menu">
+          <li><a href="index.html" style="color: #ec1015">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="pastEvents.html">Past Events</a></li>
+          <li><a href="sponsors.html">Our Sponsors</a></li>
+          <li class="btn">
+            <a class="register" onclick="popup()"> Register </a>
+          </li>
+        </ul>
+      </div>
+      <div class="overlay" style="display: none"></div>
+      <div class="popup" id="scroll" style="display: none">
+        <div class="box">
+          <p class="offer_title">Delegate Pass</p>
+          <hr />
+          <br />
+          <p class="price"><b>&#8377;700</b></p>
+          <a href="https://forms.gle/rtdFKAM8JWnXHy2a9" target="_blank"
+            ><button class="box_btn">Register</button></a
+          >
+        </div>
+        <br />
+        <div class="box">
+          <p class="offer_title">Student Offer!</p>
+          <hr />
+          <p class="price"><b>&#8377;350</b></p>
+          <p class="strike">&#8377;750</p>
+          <a href="https://forms.gle/KuDc7TFjUcyBkN8aA" target="_blank"
+            ><button class="box_btn">Register</button></a
+          >
+        </div>
+      </div>
+      <br /><br />
+      <div style="display: flex; flex-direction: column; gap: 50px">
+        <div class="flex-item">
+          <p style="font-size: 25px; font-weight: 600">Inauguration</p>
+          <p class="time">09:00 IST</p>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 12.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Edward W Rogers</p>
+            <p class="caption">
+              Visiting Faculty, Indian School of Business & Retired Chief
+              Knowledge officer, NASA
+            </p>
+          </div>
+          <div class="time-container">
+            <p class="time">09:30 IST</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 13.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Padmini Janaki</p>
+            <p class="caption">Co-Founder & CEO, Mind&mom</p>
+          </div>
+          <div class="time-container">
+            <p class="time">09:50 IST</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 16.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Aman Lamba</p>
+            <p class="caption">Lead Renewals specialist, CISCO</p>
+          </div>
+          <div class="time-container">
+            <p class="time">10:10 IST</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 15.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Dikashma Shree</p>
+            <p class="caption">Student, CIT Chennai Group of Institutions</p>
+          </div>
+          <div class="time-container">
+            <p class="time">10:30 IST</p>
+          </div>
+        </div>
+        <div class="break-container">
+          <p style="font-size: 25px; font-weight: 600">Break</p>
+          <p class="time">10:50 IST</p>
+        </div>
+
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 14.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Srutanjay Narayan IAS</p>
+            <p class="caption">
+              Additional Collector (Development), Villupuram
+            </p>
+          </div>
+          <div class="time-container">
+            <p class="time">11:10 IST</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 17.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Ajesh Saklecha</p>
+            <p class="caption">
+              Co-Founder & Strategy, tride mobility (AI connected vehicle
+              systems + ADAS)
+            </p>
+          </div>
+          <div class="time-container">
+            <p class="time">11:30 IST</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 18.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Aafreen Sheriff M</p>
+            <p class="caption">Student, CIT Chennai Group of Institutions</p>
+          </div>
+          <div class="time-container">
+            <p class="time">11:50 IST</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 19.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Shriram K Vasudevan</p>
+            <p class="caption">Lead - Evangelist (Technical), INTEL</p>
+          </div>
+          <div class="time-container">
+            <p class="time">12:10 IST</p>
+          </div>
+        </div>
+        <div class="break-container">
+          <p style="font-size: 25px; font-weight: 600">Lunch Break</p>
+          <p class="time">12:30 IST</p>
+        </div>
+
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 20.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Pradeep John</p>
+            <p class="caption">Weatherman Of Tamilnadu</p>
+          </div>
+          <div class="time-container">
+            <p class="time">13:30 IST</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 21.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Ashwini Govindaraju</p>
+            <p class="caption">
+              Radio jockey, influencer & campus affairs head - cIT Chennai
+            </p>
+          </div>
+          <div class="time-container">
+            <p class="time">13:50 IST</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 22.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Sougata Bhattacharjee</p>
+            <p class="caption">
+              Senior Staff Engineer, Samsung Semiconductor Research India
+            </p>
+          </div>
+          <div class="time-container">
+            <p class="time">14:10 IST</p>
+          </div>
+        </div>
+        <div class="break-container">
+          <p style="font-size: 25px; font-weight: 600">Break</p>
+          <p class="time">14:30 IST</p>
+        </div>
+
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 23.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Hussain Ahmed</p>
+            <p class="caption">Managing Director, Cheran Academy</p>
+          </div>
+          <div class="time-container">
+            <p class="time">14:50 IST</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 24.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">J Neha Susan</p>
+            <p class="caption">Student, CIT Chennai Group of Institutions</p>
+          </div>
+          <div class="time-container">
+            <p class="time">15:10 IST</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="img-container">
+            <img src="img/agenda/Frame 25.svg" alt="" />
+          </div>
+          <div class="p-container">
+            <p class="name">Shyam Siddarth</p>
+            <p class="caption">Founder & CEO, Tamilpreneur</p>
+          </div>
+          <div class="time-container">
+            <p class="time">15:30 IST</p>
+          </div>
+        </div>
+        <div class="break-container">
+          <p style="font-size: 25px; font-weight: 600">Closing Ceremony</p>
+          <p class="time">15:50 IST</p>
+        </div>
+      </div>
+      <br /><br />
+      <footer>
+        <p class="footer_title" style="margin-left: 10px">
+          <span>TED<sup>X</sup></span
+          >Chennai Institute of Technology
+        </p>
+        <div class="footer_text" style="margin-left: 10px">
+          <p>This independent TEDx event is operated under license from TED.</p>
+        </div>
+        <div class="links" style="margin: auto">
+          <a href="https://twitter.com/tedxcitchennai" target="_blank"
+            ><img src="img/twitter.svg" alt=""
+          /></a>
+          <a href="https://www.instagram.com/tedxcitchennai/" target="_blank"
+            ><img src="img/instagram.svg" alt=""
+          /></a>
+          <a
+            href="https://www.linkedin.com/company/tedxchennaiinstituteoftechnology"
+            target="_blank"
+            ><img src="img/linkedin.svg" alt=""
+          /></a>
+        </div>
+        <br />
+      </footer>
+    </main>
+    <script src="./script.js"></script>
+    <script>
+      const X = () => {
+        //alert(window.innerWidth);
+        const nav = document.querySelector(".bar");
+        const menu = document.querySelector(".menu");
+
+        nav.addEventListener("click", () => {
+          nav.classList.toggle("bar-active");
+          menu.classList.toggle("nav-active");
+        });
+      };
+      X();
+      function dropdown() {
+        const dropdown = document.getElementById("dropdown");
+        dropdown.style.display =
+          dropdown.style.display === "none" ? "block" : "none";
+      }
+      function popup() {
+        const popup = document.querySelector(".popup");
+        const overlay = document.querySelector(".overlay");
+        var scroll = document.getElementById("scroll");
+        window.scrollTo({ top: 0, behavior: "smooth" });
+
+        overlay.style.display = "block";
+        popup.style.display = "block";
+
+        overlay.addEventListener("click", function (event) {
+          if (event.target === overlay) {
+            popup.style.display = "none";
+            overlay.style.display = "none";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

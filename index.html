@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TED X</title>
+    <link rel="stylesheet" href="public.css" />
+    <link rel="stylesheet" href="section1.css" />
+    <link rel="stylesheet" href="section2.css" />
+    <link rel="stylesheet" href="section3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <a href="index.html">
+            <img src="img/logo-white.png" class="logo" alt="" />
+          </a>
+          <ul class="menu">
+            <li><a href="index.html" style="color: #ec1015">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pastEvents.html">Past Events</a></li>
+            <li><a href="sponsors.html">Our Sponsors</a></li>
+            <li class="btn">
+              <a class="register" onclick="popup()"> Register </a>
+            </li>
+          </ul>
+          <div class="bar" onclick="dropdown()">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+        </nav>
+      </header>
+      <div style="position: sticky; right: 0; top: 100px; text-align: right">
+        <button
+          style="
+            position: relative;
+            padding: 10px;
+            min-height: 40px;
+            min-width: 80px;
+            cursor: pointer;
+            background-color: #ec1015;
+            border: 0;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+          "
+        >
+          <a
+            href="agenda.html"
+            style="text-decoration: none; color: white; font-size: 20px"
+            >Agenda</a
+          >
+        </button>
+      </div>
+      <div class="container">
+        <p>BEYOND THE<span style="color: #ec1015"> HORIZON</span></p>
+      </div>
+      <div class="scroll">
+        <div class="scroll-indicator"></div>
+      </div>
+      <div id="dropdown" style="display: none">
+        <ul class="menu">
+          <li><a href="index.html" style="color: #ec1015">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="pastEvents.html">Past Events</a></li>
+          <li><a href="sponsors.html">Our Sponsors</a></li>
+          <li class="btn">
+            <a class="register" onclick="popup()"> Register </a>
+          </li>
+        </ul>
+      </div>
+      <div class="overlay" style="display: none"></div>
+      <div class="popup" id="scroll" style="display: none">
+        <div class="box">
+          <p class="offer_title">Delegate Pass</p>
+          <hr />
+          <br />
+          <p class="price"><b>&#8377;700</b></p>
+          <a href="https://forms.gle/rtdFKAM8JWnXHy2a9" target="_blank"
+            ><button class="box_btn">Register</button></a
+          >
+        </div>
+        <br />
+        <div class="box">
+          <p class="offer_title">Student Offer!</p>
+          <hr />
+          <p class="price"><b>&#8377;350</b></p>
+          <p class="strike">&#8377;750</p>
+          <a href="https://forms.gle/KuDc7TFjUcyBkN8aA" target="_blank"
+            ><button class="box_btn">Register</button></a
+          >
+        </div>
+      </div>
+      <section id="section1">
+        <div>
+          <p class="heading">BEYOND THE <span> HORIZON</span></p>
+          <p>
+            <em
+              ><b
+                >"The horizon is not a limit, it's an invitation to explore the
+                boundless ideas that awaits discovery".</b
+              ></em
+            >
+            <br /><br />
+            The line between the known and unknown is as thin as a thread, but
+            crossing it takes a huge leap, courage, and mindfulness. Beyond the
+            Horizon embodies our collective quest to transcend boundaries,
+            beckoning individuals to embark on an expedition beyond the
+            familiar. It symbolizes our unwavering commitment to charting
+            unexplored territories, unveiling innovations, and embracing the
+            vast possibilities that await just beyond the known horizon. Join us
+            on a journey beyond the known, where remarkable opportunities are
+            explored together.
+          </p>
+        </div>
+        <div><img src="img/vector.svg" class="vector" alt="" /></div>
+      </section>
+      <section id="section2">
+        <div class="section2_flex">
+          <div><img src="img/mic.svg" class="mic" alt="" /></div>
+          <div>
+            <p class="heading">OUR <span>SPEAKERS</span></p>
+          </div>
+        </div>
+        <div class="section2_grid">
+          <div class="component">
+            <img src="img/speakers/1 - Ajesh Saklecha.svg" alt="" />
+            <p class="name">Ajesh Saklecha</p>
+            <p class="caption">
+              <b>CO-FOUNDER & STRATEGY<br /></b
+              ><span class="component_span">TRIDE MOBILITY</span>
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/2 - Hussain Ahmed.svg" alt="" />
+            <p class="name">Hussain Ahmed</p>
+            <p class="caption">
+              <b>MANAGING DIRECTOR<br /></b
+              ><span class="component_span">CHERAN ACADEMY</span>
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/3 - Shyam Siddarth.svg" alt="" />
+            <p class="name">Shyam Siddarth</p>
+            <p class="caption">
+              <b>FOUNDER & CEO<br /></b
+              ><span class="component_span">TAMILPRENEUR</span>
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/4 - Edward W Rogers.svg" alt="" />
+            <p class="name">Edward W Rogers</p>
+            <p class="caption">
+              <b>VISITING FACULTY<br /> </b
+              ><span class="component_span">INDIAN SCHOOL OF BUSINESS</span>
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/6 - Padmini Janaki.svg" alt="" />
+            <p class="name">Padmini Janaki</p>
+            <p class="caption">
+              <b>CO-FOUNDER & CEO<br /></b
+              ><span class="component_span">MIND&MOM</span>
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/neha.svg" alt="" />
+            <p class="name">J Neha Susan</p>
+            <p class="caption">
+              <b>Student<br /></b
+              ><span class="component_span"
+                >CIT CHENNAI GROUP OF INSTITUTIONS</span
+              >
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/7.svg" alt="" />
+            <p class="name">Srutanjay Narayanan IAS</p>
+            <p class="caption">
+              <b>ADDITIONAL COLLECTOR (DEVELOPMENT)<br /></b
+              ><span class="component_span">VILLUPURAM</span>
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/9 - Pradeep John.svg" alt="" />
+            <p class="name">Pradeep John</p>
+            <p class="caption">
+              <b>WEATHER FORECASTER<br /></b
+              ><span class="component_span">TAMILNADU WEATHERMAN</span>
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/10 - RJ Ashwini.svg" alt="" />
+            <p class="name">RJ Ashwini</p>
+            <p class="caption">
+              <b>RADIO JOCKEY, INFLUENCER<br /></b
+              ><span class="component_span"
+                >CAMPUS AFFAIRS HEAD - CIT CHENNAI</span
+              >
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/dikashma.svg" alt="" />
+            <p class="name">Dikashma Shree</p>
+            <p class="caption">
+              <b>Student<br /></b
+              ><span class="component_span"
+                >CIT CHENNAI GROUP OF INSTITUTIONS</span
+              >
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/13-1.svg" alt="" />
+            <p class="name">Shriram K Vasudevan</p>
+            <p class="caption">
+              <b>LEAD EVANGELIST (TECHNICAL)<br /></b
+              ><span class="component_span">INTEL</span>
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/8.svg" alt="" />
+            <p class="name">Sougata Bhattacharjee</p>
+            <p class="caption">
+              <b>SENIOR STAFF ENGINEER<br /></b
+              ><span class="component_span"
+                >SAMSUNG SEMICONDUCTOR INDIA RESEARCH</span
+              >
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/aafreen sheriff.svg" alt="" />
+            <p class="name">Aafreen Sheriff M</p>
+            <p class="caption">
+              <b>Student<br /></b
+              ><span class="component_span"
+                >CIT CHENNAI GROUP OF INSTITUTIONS</span
+              >
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/5 - Arun Prakash.svg" alt="" />
+            <p class="name">Arun Prakash</p>
+            <p class="caption">
+              <b>FOUNDER & CEO<br /></b><span class="component_span">GUVI</span>
+            </p>
+          </div>
+          <div class="component">
+            <img src="img/speakers/13.svg" alt="" />
+            <p class="name">Aman Lamba</p>
+            <p class="caption">
+              <b>LEAD RENEWALS SPECIALIST<br /></b
+              ><span class="component_span">CISCO</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="section3">
+        <div style="display: flex">
+          <div>
+            <span class="tedx"
+              ><p>TED<sup>X</sup></p></span
+            >
+          </div>
+          <div>
+            <p class="ideas">IDEAS WORTH <br />SPREADING</p>
+          </div>
+        </div>
+        <div class="receiving">
+          Ideas worth <br /><span style="color: #ec1015">Receiving</span>
+        </div>
+        <p class="content">
+          Embark on your quest <b>Beyond the Horizon </b>and enlight your soul
+          with knowledge. Dont think, just register!
+        </p>
+        <a class="register"
+          ><button class="btn2" onclick="popup()">Register</button></a
+        >
+        <hr width="100%" />
+        <p class="whats">
+          <a
+            href="https://www.ted.com/about/programs-initiatives/tedx-program"
+            target="_blank"
+            ><b><span>What is TEDx?</span></b></a
+          ><br /><br />In the spirit of ideas worth spreading, TED has created a
+          program called TEDx. TEDx is a program of local, self-organized events
+          that bring people together to share a TED-like experience. Our event
+          is called TEDxChennai Institute Of Technology, where x = independently
+          organized TED event. At our TEDxChennai Institute Of Technology event,
+          TED Talks video and live speakers will combine to spark deep
+          discussion and connection in a small group. The TED Conference
+          provides general guidance for the TEDx program, but individual TEDx
+          events, including ours, are self-organized. <br />
+        </p>
+        <footer>
+          <p class="footer_title" style="margin-left: 10px">
+            <span>TED<sup>X</sup></span
+            >Chennai Institute of Technology
+          </p>
+          <div class="footer_text" style="margin-left: 10px">
+            <p>
+              This independent TEDx event is operated under license from TED.
+            </p>
+          </div>
+          <div class="links" style="margin: auto">
+            <a href="https://twitter.com/tedxcitchennai" target="_blank"
+              ><img src="img/twitter.svg" alt=""
+            /></a>
+            <a href="https://www.instagram.com/tedxcitchennai/" target="_blank"
+              ><img src="img/instagram.svg" alt=""
+            /></a>
+            <a
+              href="https://www.linkedin.com/company/tedxchennaiinstituteoftechnology"
+              target="_blank"
+              ><img src="img/linkedin.svg" alt=""
+            /></a>
+          </div>
+          <br />
+        </footer>
+      </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="./script.js"></script>
+    <script>
+      const X = () => {
+        //alert(window.innerWidth);
+        const nav = document.querySelector(".bar");
+        const menu = document.querySelector(".menu");
+
+        nav.addEventListener("click", () => {
+          nav.classList.toggle("bar-active");
+          menu.classList.toggle("nav-active");
+        });
+      };
+      X();
+      function dropdown() {
+        const dropdown = document.getElementById("dropdown");
+        dropdown.style.display =
+          dropdown.style.display === "none" ? "block" : "none";
+      }
+      function popup() {
+        const popup = document.querySelector(".popup");
+        const overlay = document.querySelector(".overlay");
+        var scroll = document.getElementById("scroll");
+        window.scrollTo({ top: 0, behavior: "smooth" });
+
+        overlay.style.display = "block";
+        popup.style.display = "block";
+
+        overlay.addEventListener("click", function (event) {
+          if (event.target === overlay) {
+            popup.style.display = "none";
+            overlay.style.display = "none";
+          }
+        });
+      }
+
+      window.onload = function () {
+        document.body.style.display = "block";
+        popup();
+      };
+    </script>
+  </body>
+</html>

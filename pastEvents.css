@@ -1,0 +1,98 @@
+.title {
+  font-size: 800%;
+  color: black;
+  font-weight: bolder;
+  background: rgb(236, 16, 21);
+  background: linear-gradient(
+    90deg,
+    rgba(236, 16, 21, 1) -10%,
+    rgba(255, 255, 255, 1) 60%
+  );
+  padding-left: 10%;
+}
+
+.bird {
+  width: 100px;
+  rotate: 30deg;
+  position: relative;
+  margin-top: -20%;
+  margin-bottom: 15%;
+  margin-left: 10%
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  padding: 5%;
+  font-size: 25px;
+  padding-top: 0;
+}
+.flex-item div {
+  padding: 5%;
+}
+.flex-item img {
+  width: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+  .title {
+    font-size: 500%;
+    color: black;
+    font-weight: bolder;
+  }
+  .bird {
+    margin-bottom: 10%;
+    margin-left: 5%;
+    width: 80px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .title {
+    font-size: 300%;
+  }
+  .bird {
+    margin-bottom: 8%;
+    margin-left: 4%;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .title {
+    font-size: 200%;
+  }
+  .bird {
+    margin-left: 2%;
+    width: 40px;
+  }
+  .flex-item {
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+    font-size: 20px;
+  }
+  .flex-item div {
+    padding: 2% 5%;
+    margin: auto;
+  }
+  .flex-item img {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 380px) {
+  .title {
+    font-size: 200%;
+  }
+  .bird {
+    margin-right: -5%;
+    width: 30px;
+  }
+}
